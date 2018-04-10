@@ -4616,16 +4616,16 @@ html, body {
   font-family: Roboto-Regular;
   /*background-color: white;*/
   color: black;
-  font-size: 0.9rem; }
+  font-size: 0.8rem; }
   #navbars a {
-    font-size: 0.9rem;
     color: black; }
 
 #navbarSupportedContent li {
   padding: 0.5rem 0;
   display: block;
   height: 100%;
-  border: 2px solid white; }
+  border: 2px solid white;
+  font-size: 0.8rem; }
   #navbarSupportedContent li:hover {
     border-top: 2px solid #00aadd; }
 
@@ -4642,7 +4642,6 @@ html, body {
   #contentxx small {
     font-family: Times New Roman;
     font-style: italic;
-    font-weight: bold;
     color: #bbbbbb;
     font-size: 1.2rem; }
   #contentxx h5 {
@@ -4680,7 +4679,6 @@ html, body {
   .sec-content2 small {
     font-family: Times New Roman;
     font-style: italic;
-    font-weight: bold;
     color: #bbbbbb;
     font-size: 1.2rem; }
   .sec-content2 .media h5 {
@@ -4692,7 +4690,6 @@ html, body {
 .sec-four small {
   font-family: Times New Roman;
   font-style: italic;
-  font-weight: bold;
   color: #bbbbbb;
   font-size: 1.2rem; }
 
@@ -4831,5 +4828,8 @@ footer {
 .sec-five {
   background-color: #fafafa;
   font-family: Roboto-Regular; }
+
+#text-content {
+  font-family: Arial; }
 
 /*# sourceMappingURL=app.css.map */

@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="styles/css/app.css">
 	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 <!-- 	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div class="wraper">
@@ -27,8 +28,8 @@
 				        <a class="nav-link active px-0" href="#">Giới thiệu</a>
 				      </li>
 				      <li class="nav-item dropdown mx-2 active">
-				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				          Dự án
+				        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Dự án <i class="fa fa-angle-down" style="color: gray;"></i>
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 				          <a class="dropdown-item" href="#">123doc</a>
@@ -37,8 +38,8 @@
 				        </div>
 				      </li>
 				      <li class="nav-item dropdown mx-2 active">
-				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				          Khách hàng
+				        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Khách hàng <i class="fa fa-angle-down" style="color: gray;"></i>
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 				          <a class="dropdown-item" href="#">123doc</a>
@@ -84,7 +85,7 @@
 			<div class="container p-0">
 				<div class="row sec-content">
 					<div class="col-lg-6 p-0">
-						<div class="col-lg-12 border-left">
+						<div class="col-lg-12" style="border-left: 5px solid #f4f4f4;">
 							<h3 class="text-uppercase">Dự án của chúng tôi</h3>
 							<small>Phát triển từ năm 2011 đến nay</small>
 						</div>
@@ -126,7 +127,7 @@
 		<section class="sec-two">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12 border-left sec-content2 w-100 mt-5">
+					<div class="col-lg-12 sec-content2 w-100 mt-5" style="border-left: 5px solid #f4f4f4;">
 							<h3 class="text-uppercase">Công việc của chúng tôi</h3>
 							<small>Chúng tôi cung cấp kinh nghiệm tương tác kỹ thuật số cho khách hàng của chúng tôi</small>
 					</div>
@@ -208,7 +209,7 @@
 		</section>
 		<section class="sec-four">
 			<div class="container p-0 pb-5">
-				<div class="col-lg-12 border-left sec-content mb-3 mb-5">
+				<div class="col-lg-12 sec-content mb-3 mb-5" style="border-left: 5px solid #f4f4f4;">
 						<h3 class="text-uppercase">Đội ngũ phát triển</h3>
 						<small>Chúng tôi cung cấp kinh nghiệm tương tác kỹ thuật số</small>
 				</div>
@@ -216,7 +217,7 @@
 					<div class="col-lg-4 pr-0">
 					<div class="images_1">
 						<div class="title_div">
-							<h6>Nguyễn Xuân Bách</h6>
+							<h6 class="text-uppercase">Nguyễn Xuân Bách</h6>
 							<small>Giám đốc tiếp thị - BigC</small>
 							
 						</div>
@@ -227,7 +228,7 @@
 					<div  class="col-lg-4 p-0">
 					<div class="images_2">
 						<div class="title_div">
-							<h6>Phạm Văn Nhân</h6>
+							<h6 class="text-uppercase">Phạm Văn Nhân</h6>
 							<small>Giám đốc công ty cộng đồng</small>
 							
 						</div>
@@ -236,7 +237,7 @@
 					<div  class="col-lg-4 pl-0">
 						<div class="images_3">
 							<div class="title_div">
-								<h6>Vương Thừa Vũ</h6>
+								<h6 class="text-uppercase">Vương Thừa Vũ</h6>
 								<small>Coder siêu hạng cấp cao</small>							
 							</div>
 						</div>					
@@ -244,16 +245,22 @@
 					<div  class="col-lg-4 pr-0">
 						<div class="images_4">
 							<div class="title_div">
-								<h6>Nguyễn Tùng Anh Em</h6>
+								<h6 class="text-uppercase">Nguyễn Tùng Anh Em</h6>
 								<small>Giám đốc tiếp thị - BigC</small>				
 							</div>
 						</div>
 						
 					</div>
 					<div  class="col-lg-4 p-0">
-						<div class="images_5">
-							<div class="d-flex align-items-center p-4">
-								<p>"Các bài học khá hay và dễ hiểu, giảng viên cũng dễ thương và nhiệt tình quá xá.Các bài học khá hay và dễ hiểu, giảng viên cũng dễ thương và nhiệt tình quá xá.Các bài học khá hay và dễ hiểu, giảng viên cũng dễ thương và nhiệt tình quá xá.Các bài học khá hay</p>
+						<div class="images_5 row">
+							<div class="col-lg-1 pt-2">
+								<p style="font-family: Times New Roman; font-size: 3rem" class="pr-0">“</p>
+							</div>
+							<div class="col-lg-11 pl-2">
+								<div class="pt-4 pr-4 ">
+									<p class="text-justify" id="text-content">Các bài học khá hay và dễ hiểu, giảng viên cũng dễ thương và nhiệt tình quá xá.Các bài học khá hay và dễ hiểu, giảng viên cũng dễ thương và nhiệt tình quá xá.Các bài học khá hay và dễ hiểu, giảng viên cũng dễ thương và nhiệt tình quá xá.Các bài học khá hay<p>
+								</div>
+								
 							
 							</div>
 						</div>
@@ -262,7 +269,7 @@
 					<div  class="col-lg-4 pl-0">
 						<div class="images_6">
 							<div class="title_div">
-								<h6>Nguyễn Xuân Bách</h6>
+								<h6 class="text-uppercase">Nguyễn Xuân Bách</h6>
 								<small>Giám đốc tiếp thị - BigC</small>		
 							</div>
 						</div>
@@ -348,7 +355,6 @@
 					
 				</div>
 			</div>
-			div
 			<div class="col-lg-12" style="background-color: #00aadd;" id="contact_2">
 				<div class="container">
 					<div class="col-lg-11 mx-auto py-4 p-0 pl-3">	
@@ -376,12 +382,12 @@
 
 			</div>
 			<div class="container">
-				<div class="col-lg-12 pl-0" style="padding: 2rem 2rem 1rem 2rem;">
+				<div class="col-lg-12 pl-0" style="padding: 2rem 0rem 1rem 2rem;">
 					<ul class="list-inline">
 					   <li class="list-inline-item pr-4 p-0 border-right"><a href="#" class="text-white">Giới thiệu</a></li>
 					   <li class="list-inline-item pr-4 border-right"><a href="#" class="text-white">Tuyển dụng</a></li>
 					   <li class="list-inline-item"><a href="#" class="text-white">Liên hệ</li>
-					   	<li class="list-inline-item float-right">COPYRIGHT @2016 Colombo</li>
+					   	<li class="list-inline-item float-right">COPYRIGHT © 2016 Colombo</li>
 					</ul>
 				</div>				
 			</div>	

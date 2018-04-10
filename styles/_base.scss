@@ -32,9 +32,9 @@ html,body{
 	font-family: Roboto-Regular;
 	/*background-color: white;*/
 	color: black;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	a{
-		font-size: 0.9rem;
+		// font-size: 0.rem;
 		color: black;
 	}
 }
@@ -44,6 +44,7 @@ html,body{
 	display: block;
 	height: 100%;
 	border: 2px solid white;
+	font-size: 0.8rem;
 		&:hover{
 		border-top: 2px solid #00aadd;
 		}
@@ -64,7 +65,7 @@ html,body{
 	small{
 	font-family: Times New Roman;
 	font-style: italic;
-	font-weight: bold;
+	// font-weight: bold;
 	color:#bbbbbb;
 	font-size: 1.2rem;
 	}
@@ -109,7 +110,7 @@ html,body{
 	small{
 	font-family: Times New Roman;
 	font-style: italic;
-	font-weight: bold;
+	// font-weight: bold;
 	color:#bbbbbb;
 	font-size: 1.2rem;
 	}
@@ -125,7 +126,7 @@ html,body{
 	small{
 	font-family: Times New Roman;
 	font-style: italic;
-	font-weight: bold;
+	// font-weight: bold;
 	color:#bbbbbb;
 	font-size: 1.2rem;
 }
@@ -289,4 +290,7 @@ footer{
 .sec-five{
 	background-color: #fafafa;
 	font-family: Roboto-Regular;
+}
+#text-content{
+	font-family:Arial;
 }
